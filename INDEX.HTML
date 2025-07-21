@@ -1,0 +1,105 @@
+ !DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>RESTful API Design - Library System</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+      padding: 20px;
+    }
+    h1 {
+      color: #333;
+    }
+    .section {
+      background: #fff;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-left: 5px solid #4CAF50;
+      border-radius: 5px;
+    }
+    code {
+      background-color: #eee;
+      padding: 2px 4px;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #f8f8f8;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>📘 RESTFUL API DESIGN library management system</h1>
+
+  <div class="section">
+    <h2>🔧 Technologies Used</h2>
+    <ul>
+      <li>Backend: Python Flask (or Node.js)</li>
+      <li>Database: SQLite or MySQL</li>
+      <li>API Format: JSON</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>📚 Book API Endpoints (CRUD)</h2>
+    <table>
+      <tr><th>Method</th><th>Endpoint</th><th>Description</th></tr>
+      <tr><td>GET</td><td><code>/books</code></td><td>Get all books</td></tr>
+      <tr><td>GET</td><td><code>/books/&lt;id&gt;</code></td><td>Get book by ID</td></tr>
+      <tr><td>POST</td><td><code>/books</code></td><td>Add a new book</td></tr>
+      <tr><td>PUT</td><td><code>/books/&lt;id&gt;</code></td><td>Update a book</td></tr>
+      <tr><td>DELETE</td><td><code>/books/&lt;id&gt;</code></td><td>Delete a book</td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>👤 Member API Endpoints (CRUD)</h2>
+    <table>
+      <tr><th>Method</th><th>Endpoint</th><th>Description</th></tr>
+      <tr><td>GET</td><td><code>/members</code></td><td>Get all members</td></tr>
+      <tr><td>GET</td><td><code>/members/&lt;id&gt;</code></td><td>Get member by ID</td></tr>
+      <tr><td>POST</td><td><code>/members</code></td><td>Add a new member</td></tr>
+      <tr><td>PUT</td><td><code>/members/&lt;id&gt;</code></td><td>Update member</td></tr>
+      <tr><td>DELETE</td><td><code>/members/&lt;id&gt;</code></td><td>Delete member</td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>📦 Sample Book</h2>
+    <pre>{
+  "title": "The Alchemist",
+  "author": "Paulo Coelho",
+  "published_year": 1988
+}</pre>
+  </div>
+
+  <div class="section">
+    <h2>📦 Sample member</h2>
+    <pre>{
+  "name": "Nandhini",
+  "email": "nandhinisekar2006@gmail.com",
+  "membership_date": "21-07-2025",
+}</pre>
+  </div>
+
+  <div class="section">
+    <h2>👩‍💻 Developer Info</h2>
+    <p><strong>Name:</strong> G. Nandhini</p>
+    <p><strong>Project:</strong> RESTFUL API for library</p>
+  </div>
+
+</body>
+</html>
